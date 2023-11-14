@@ -1,4 +1,4 @@
-GptGeonames
+Geonames
 ================
 
  Symfony bundle. Define entities to store data from Geonames in tables

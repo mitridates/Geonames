@@ -7,7 +7,7 @@
     "bundle",
     "geonames"
   ],
-  "homepage": "https://github.com/mitridates/Geonames",
+  "homepage": "https://github.com/mitridates/geonames",
   "license": "MIT",
   "require": {
     "php": ">=8.1"

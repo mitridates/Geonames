@@ -1,6 +1,7 @@
 {
   "name": "mitridates/geonames",
   "type": "symfony-bundle",
+  "version": "0.1.0",
   "description": "Entity definitions to store Geonames data",
   "keywords": [
     "symfony",

@@ -22,10 +22,5 @@
     "psr-4": {
       "App\\Geonames\\": "src/"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "App\\Geonames\\": "tests/"
-    }
   }
 }

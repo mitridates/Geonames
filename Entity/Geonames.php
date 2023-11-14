@@ -2,15 +2,10 @@
 
 namespace App\Geonames\Entity;
 
-use App\Geonames\Repository\GeonamesRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-/**
- * Geonames
- */
 #[ORM\Table(name: 'geonames_geonames')]
-#[ORM\Entity(repositoryClass: GeonamesRepository::class)]
-class Geonames implements \Stringable
+class Geonames
 {
     /**
      * @var integer Geonameid
@@ -443,8 +438,4 @@ class Geonames implements \Stringable
         return $this->modificationdate;
     }
 
-    public function __toString(): string
-    {
-        return (string) $this->name;
-    }
 }

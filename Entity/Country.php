@@ -2,10 +2,8 @@
 
 namespace App\Geonames\Entity;
 
-use App\Geonames\Repository\CommonRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: CommonRepository::class)]
 #[ORM\Table(name: 'geonames_country')]
 class Country implements \Stringable
 {

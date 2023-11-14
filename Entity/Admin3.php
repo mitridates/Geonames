@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Geonames\Entity;
-use App\Geonames\Repository\CommonRepository;
 use Doctrine\ORM\Mapping as ORM;
 /**
  * Admin3 code for third administrative division, a county in the US, see file admin3Codes.txt; varchar(80)
@@ -10,7 +9,6 @@ use Doctrine\ORM\Mapping as ORM;
 #[ORM\Index(columns: ['country'], name: 'country_idx')]
 #[ORM\Index(columns: ['admin1'], name: 'admin1_idx')]
 #[ORM\Index(columns: ['admin2'], name: 'admin2_idx')]
-#[ORM\Entity(repositoryClass: CommonRepository::class)]
 class Admin3
 {
     /**
